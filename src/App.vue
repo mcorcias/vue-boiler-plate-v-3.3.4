@@ -5,15 +5,14 @@
     </v-main>
   </v-app>
 </template>
-<script setup>
 
-</script>
 
 <script setup>
   import { onMounted } from 'vue'
   import {usePlatformStore} from './stores/platform'
   const platform_store = usePlatformStore()
   const {fit_screen} = platform_store
+  import store from './store'
 
 
 

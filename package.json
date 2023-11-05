@@ -6,15 +6,20 @@
     "serve": "vite preview",
     "build": "vite build",
     "dev": "vite",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "rename": "node rename-project.js"
   },
   "dependencies": {
+    "@dafcoe/vue-notification": "^0.1.6",
     "@mdi/font": "5.9.55",
+    "firebase": "^10.5.2",
     "pinia": "^2.1.7",
     "roboto-fontface": "*",
+    "sweetalert2": "^11.7.31",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5",
     "vuetify": "^3.0.0-beta.0",
+    "vuex": "^4.1.0",
     "webfontloader": "^1.0.0"
   },
   "devDependencies": {
